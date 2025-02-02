@@ -1,24 +1,18 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/IImiEBmR)
-# Projet : Conception d'un Portfolio Ergonomique et responsive
+# My Personal Portfolio
+A simple, professional and  mobile friendly portfolio webpage coded using HTML, CSS and JavaScript.
+I created my own JSON data for my projects done.
+Kindly Check it out :)
 
-## Introduction
-Préparer un portfolio est une tâche essentielle pour un développeur web désirant intégrer le marché du travail. Dans ce cadre, on vous demande de concevoir un portfolio ergonomique qui met en valeur :
-- **Votre formation**
-- **Vos expériences professionnelles**
-- **Vos réalisations en termes de projets**
+LIVE Link: [View Now](https://www.jumanjigobez.github.io/personal_portfolio)
 
-## Objectifs du projet
-- Concevoir un **portfolio ergonomique et esthétique**.
-- Garantir une **compatibilité avec tous les appareils** (responsive design).
-- Mettre en valeur vos compétences et votre créativité.
+## Screenshots
+![portfolio](https://user-images.githubusercontent.com/73429193/187241803-749486eb-ccba-4b31-8025-c24aeef3b638.png)
+![mobile design](https://github.com/Jumanjigobez/personal_portfolio/assets/73429193/69ca0d10-43b8-440f-b1b2-ee5bdae29d38)
 
-## Contraintes techniques
-Pour rendre votre portfolio responsive, vous êtes libres de travailler avec l'une des technologies suivantes :
-- **Media Queries**
-- **Bootstrap**
-- **Tailwind CSS**
 
-## Livrables attendus
-1. **Maquettes web et mobile** : Les maquettes doivent refléter le design et la structure de votre portfolio.
-2. **Code source du portfolio** : Le code doit être organisé, commenté et prêt à être exécuté.
+Please Also Follow me in:
+- Github - [@jumanjigobez](https://www.github.com/jumanjigobez)
+- Instagram - [@jumanjicasilas](https://www.instagram.com/jumanjicasilas)
+- Youtube - [@Jumanji_Dev](https://www.youtube.com/channel/UCw3RDC7Nn5lzU15-HdOC6WA)
 
+Thanks in Advance for being my follower and giving a Star :)

@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      description="Mohamedamine Satou Portfolio"
+      content="projects done by mohamedamine-satou, about, and contacts."
+    />
+    <title>Mohamedamine Satou | Personal Portfolio Website</title>
+    <link rel="shortcut icon" type="image/png" href="images/juma1.png" />
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css"> 
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+    <script defer src="data.json"></script>
+  </head>
+
+  <body>
+    <div class="preloader" id="preloader">
+      <div class="counter" id="counter">0</div>
+      <div class="text" id="text">Welcome To <span>Satou...</span></div>
+    </div>
+
+    <header id="header">
+      <div class="logo">
+        <h1>Mohamedamine<span>Satou</span></h1>
+      </div>
+      <div class="menu">
+        <div id="menu_btn">
+          <p onclick="toggleMenu(this);"><i class="fa fa-bars"></i></p>
+        </div>
+        <nav>
+          <ul id="menu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="section_1">
+        <div class="part_1">
+          <img src="images/homepic.png" alt="Mohamedamine Satou" />
+        </div>
+        <div class="part_2">
+          <p>
+            Hello, <span id="visitor"></span><br />
+            My name is <br /><b>Mohamedamine Satou</b> <br />And I'm a:
+          </p>
+
+          <div class="typing_part">
+            <p><span class="typing"></span></p>
+          </div>
+
+          <a href="#contact"
+            ><button class="btn">
+              Hire Me <i class="fa fa-arrow-down" id="down"></i></button
+          ></a>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="part_1">
+          <h2>About Me</h2>
+        </div>
+        <div class="part_2">
+          <div class="image_part">
+            <img src="images/juma1.1.png" alt="Mohamedamine Satou Image 2" />
+          </div>
+
+          <div class="info">
+            <h3>I'm Mohamedamine & I'm a:</h3>
+            <marquee
+              >Full stack developer, Frontend Developer, Freelancer &
+              Content Creatoe.</marquee
+            >
+            <p>
+              I am a dedicated professional known as <q>Satou</q> in my
+              personal sphere. My fervent passion lies in the tech industry,
+              particularly in programming roles. With a robust skill set and
+              extensive experience, I am confident in my ability to excel. I am
+              well-equipped to contribute remotely or in an office environment,
+              ready to bring innovation and dedication to any team. Thank you
+              for visiting my portfolio webpage; I eagerly anticipate the
+              opportunity to collaborate with you
+              <b>Mr/Mrs/Miss. <span id="visitor"></span>.</b>
+            </p>
+            <button
+              class="btn"
+            >
+              Request Resume
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="services">
+        <div class="part_1">
+          <h2>My Services</h2>
+        </div>
+
+        <div class="part_2">
+          <div class="box">
+            <h4>Website Development</h4>
+            <p>
+              I can develop a <b>professional</b> and <b>responsive</b> website
+              tailored to your needs, designed to be <b>attractive</b> to your
+              customers.
+            </p>
+          </div>
+
+          <div class="box">
+            <h4>Frontend Development</h4>
+            <p>
+              I can create <b>user-friendly</b> interfaces with eye-catching
+              themes to enhance the experience for your visitors.
+            </p>
+          </div>
+
+          <div class="box">
+            <h4>Backend Development</h4>
+            <p>
+              I can develop web applications, such as management systems, that
+              store data in a database using modern technologies to ensure
+              <b>flexibility</b>.
+            </p>
+          </div>
+
+          <div class="box">
+            <h4>System Development</h4>
+            <p>
+              I can develop systems that are <b>time-saving</b> and
+              <b>easy</b> to use.
+            </p>
+          </div>
+
+          <div class="box">
+            <h4>Content Creator</h4>
+            <p>
+              I run a Instagram Account where I discuss programming and mentor new
+              programmers. I can create <b>engaging</b> and
+              <b>high-quality</b> content.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="part_1">
+          <h2>My Skills</h2>
+        </div>
+
+        <div class="part_2">
+          <div class="info">
+            <h3>My Creative Skills & Experiences:</h3>
+            <p>
+              I have gained extensive knowledge and practical experience in the
+              field of Information Technology (IT), acquiring valuable and
+              marketable programming skills. Below are the programming skills I
+              have developed and gained hands-on experience with:-
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="skills">
+              <div class="skill-name">HTML</div>
+              <div class="skill-bar">
+                <div
+                  class="skill-per"
+                  per="99%"
+                  id="skill"
+                  style="max-width: 99%"
+                ></div>
+              </div>
+
+              <div class="skill-name">CSS</div>
+              <div class="skill-bar">
+                <div
+                  class="skill-per"
+                  per="99%"
+                  id="skill"
+                  style="max-width: 99%"
+                ></div>
+              </div>
+
+              <div class="skill-name">JavaScript</div>
+              <div class="skill-bar">
+                <div
+                  class="skill-per"
+                  per="99%"
+                  id="skill"
+                  style="max-width: 99%"
+                ></div>
+              </div>
+
+              <div class="skill-name">WORDPRESS</div>
+              <div class="skill-bar">
+                <div
+                  class="skill-per"
+                  per="95%"
+                  id="skill"
+                  style="max-width: 95%"
+                ></div>
+              </div>
+
+              <div class="skill-name">JQuery</div>
+              <div class="skill-bar">
+                <div
+                  class="skill-per"
+                  per="90%"
+                  id="skill"
+                  style="max-width: 90%"
+                ></div>
+              </div>
+
+              <div class="skill-name">React Js</div>
+              <div class="skill-bar">
+                <div
+                  class="skill-per"
+                  per="85%"
+                  id="skill"
+                  style="max-width: 85%"
+                ></div>
+              </div>
+            </div>
+
+            <div class="button">
+              <button class="btn" id="more_btn">
+                More Skills <i class="fa fa-arrow-down" id="down"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="part_3" id="more_card" style="display: none">
+          <div class="card">
+            <div class="skill-name">React Native</div>
+            <div class="skill-bar">
+              <div
+                class="skill-per"
+                per="85%"
+                id="skill"
+                style="max-width: 85%"
+              ></div>
+            </div>
+
+            <div class="skill-name">SQL</div>
+            <div class="skill-bar">
+              <div
+                class="skill-per"
+                per="90%"
+                id="skill"
+                style="max-width: 90%"
+              ></div>
+            </div>
+
+            <div class="skill-name">PHP</div>
+            <div class="skill-bar">
+              <div
+                class="skill-per"
+                per="90%"
+                id="skill"
+                style="max-width: 90%"
+              ></div>
+            </div>
+
+            <div class="skill-name">PYTHON</div>
+            <div class="skill-bar">
+              <div
+                class="skill-per"
+                per="90%"
+                id="skill"
+                style="max-width: 90%"
+              ></div>
+            </div>
+
+            <div class="skill-name">C</div>
+            <div class="skill-bar">
+              <div
+                class="skill-per"
+                per="90%"
+                id="skill"
+                style="max-width: 90%"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="part_1">
+          <h2>My Projects</h2>
+        </div>
+
+        <div class="filter_bar">
+          <ul>
+            <li onclick="handleFilter(this,'all')">
+              All <span class="project_count count_all">0</span>
+            </li>
+            <li onclick="handleFilter(this,'personal_project')">
+              Personal Projects <span class="project_count count_personal">0</span>
+            </li>
+            <!-- <li onclick="handleFilter(this,'react_project')">React Projects</li> -->
+            </li>
+          </ul>
+        </div>
+
+        <div class="filter_bar mobile">
+          <select class="custom_select" onchange="handleFilter(this, this.value)"> 
+            <option value="all">All</option> 
+            <option value="personal_project">Personal Projects</option> 
+          </select>
+        </div>
+        
+        <div class="part_2">
+          <div class="loading_screen">
+            <div class="boxLoading"></div>
+          </div>
+
+          <div class="container">
+            <!--- Projects will be dynamically shown from local json data--->
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="part_1">
+          <h2>Contact me</h2>
+        </div>
+
+        <div class="part_2">
+          <div class="info">
+            <h3>Get in Touch</h3>
+            <p>
+              Hi there, <span id="visitor"></span>! I hope you enjoyed the view.
+              If you have any projects or services you'd like to see executed
+              with precision and flair, don't hesitate to reach out. I'll be
+              sure to respond promptly.
+            </p>
+            <p>
+              Even if it's just to say hello, I'd love to hear from you. Let's
+              connect over a cup of coffee! :)
+            </p>
+
+            <ul>
+              <li>
+                <i class="fa fa-user"></i>
+                <h4>Name</h4>
+                <p>Mohamedamine Satou</p>
+              </li>
+              <li>
+                <i class="fa fa-map-marker"></i>
+                <h4>Address</h4>
+                <p>Casablanca, Morocco</p>
+              </li>
+              <li>
+                <i class="fa fa-phone"></i>
+                <h4>Phone</h4>
+                <p>+212 766376427</p>
+              </li>
+              <li>
+                <i class="fa fa-envelope"></i>
+                <h4>Email</h4>
+                <p>aminemohamedsatou@gmail.com</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact_form">
+            <h3>Message me:</h3>
+
+            <div class="c_box">
+              <div class="icon">
+                <a href="mailto:aminemohamedsatou@gmail.com" target="_blank"
+                  ><img src="images/gmail.png" alt="Gmail Icon"
+                /></a>
+              </div>
+
+              <div class="icon">
+                <h1>OR</h1>
+              </div>
+
+              <div class="icon">
+                <a href="https://wa.me/17073418621" target="_blank"
+                  ><img src="images/whatsapp.png" alt="Whatsapp Icon"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+      <!---Sidebar items of social media icons--->
+      <div id="sidebar">
+        <div id="sidebar_items">
+          <ul>
+            <li>
+              <a
+                href="https://www.instagram.com/satou.dev"
+                target="_blank"
+                ><i class="fa fa-instagram"></i>
+              </a>
+            </li>
+          
+            <li>
+              <a href="https://www.linkedin.com/in/mohamedamine-satou-469b20221/" target="_blank"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/Godjeksatouu" target="_blank"
+                ><i class="fa fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://wa.me/17073418621" target="_blank"
+                ><i class="fa fa-whatsapp"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <footer id="footer">
+        <h2>Coded with <i class="fa fa-heart"></i> by Satou</h2>
+        <p>Mohamedamine Satou | &copy 2025 All rights reserved</p>
+
+        <div id="top">
+          <p>
+            <a href="#section_1"><i class="fa fa-arrow-up"></i></a>
+          </p>
+        </div>
+      </footer>
+    </main>
+    <script src="script/script.js"></script>
+  </body>
+</html>
